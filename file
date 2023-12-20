@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='index.css'>
+    <script src='main.js'></script>
+    <div id="heading">
+        <hr>
+        <h2>Bundle & Save</h2>
+        <hr>
+      </div>
+</head>
+
+<body>
+    <div class="box" id="topBox" onclick="toggleOptions('topBoxOptions', 'topBoxCheckbox', 'topBoxDropdowns')">
+        <div id="box-top-side">
+            <div id="box-top-side-inside">
+
+                <input type="checkbox" id="topBoxCheckbox" class="checkbox" />
+                <div>
+                    <p>Top Box</p>
+                    <h2>Top Box</h2>
+
+
+                </div>
+            </div>
+            <h4>50% OFF</h4>
+
+        </div>
+        <div id="topBoxOptions" class="options">
+            <div id="topBoxDropdowns" class="dropdowns">
+            <div id="bottom-style">
+                <div>
+                    <label for="colorSelect">Color:</label>
+                        <div id="dropdownStyle">
+                            <p>#1</p>
+                            <select id="colorSelect">
+                                <!-- Options for color dropdown -->
+                                <option value="red">Red</option>
+                                <option value="green">Green</option>
+                                <option value="blue">Blue</option>
+                            </select>
+                        </div>
+                        <div id="dropdownStyle">
+                            <p>#2</p>
+                            <select id="colorSelect">
+                                <!-- Options for color dropdown -->
+                                <option value="red">Red</option>
+                                <option value="green">Green</option>
+                                <option value="blue">Blue</option>
+                            </select>
+                        </div>
+                </div>
+
+                <div>
+
+                    <label for="sizeSelect">Size:</label>
+                    <div id="dropdownStyle2">
+
+                        <select id="sizeSelect">
+                            <!-- Options for size dropdown -->
+                            <option value="small">Small</option>
+                            <option value="medium">Medium</option>
+                            <option value="large">Large</option>
+                        </select>
+                        <select id="sizeSelect">
+                            <!-- Options for size dropdown -->
+                            <option value="small">Small</option>
+                            <option value="medium">Medium</option>
+                            <option value="large">Large</option>
+                        </select>
+                    </div>
+                </div>
+
+            </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="box" id="middleBox"
+        onclick="toggleOptions('middleBoxOptions', 'middleBoxCheckbox','middleBoxDropdowns')">
+        <div id="box-top-side">
+            <div id="box-top-side-inside">
+
+                <input type="radio" id="middleBoxOptions" class="checkbox" />
+                <div>
+                    <p>Top Box</p>
+
+                    <h2>Top Box</h2>
+
+
+                </div>
+            </div>
+            <h4>50% OFF</h4>
+
+        </div>
+        <div id="topBoxOptions" class="options">
+            <div id="topBoxDropdowns" class="dropdowns">
+            <div id="bottom-style">
+                <div>
+                    <label for="colorSelect">Color:</label>
+                        <div id="dropdownStyle">
+                            <p>#1</p>
+                            <select id="colorSelect">
+                                <!-- Options for color dropdown -->
+                                <option value="red">Red</option>
+                                <option value="green">Green</option>
+                                <option value="blue">Blue</option>
+                            </select>
+                        </div>
+                        <div id="dropdownStyle">
+                            <p>#2</p>
+                            <select id="colorSelect">
+                                <!-- Options for color dropdown -->
+                                <option value="red">Red</option>
+                                <option value="green">Green</option>
+                                <option value="blue">Blue</option>
+                            </select>
+                        </div>
+                </div>
+
+                <div>
+
+                    <label for="sizeSelect">Size:</label>
+                    <div id="dropdownStyle2">
+
+                        <select id="sizeSelect">
+                            <!-- Options for size dropdown -->
+                            <option value="small">Small</option>
+                            <option value="medium">Medium</option>
+                            <option value="large">Large</option>
+                        </select>
+                        <select id="sizeSelect">
+                            <!-- Options for size dropdown -->
+                            <option value="small">Small</option>
+                            <option value="medium">Medium</option>
+                            <option value="large">Large</option>
+                        </select>
+                    </div>
+                </div>
+
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="box" id="bottomBox"
+        onclick="toggleOptions('bottomBoxOptions', 'bottomBoxCheckbox','bottomBoxDropdowns')">
+        <div id="box-top-side">
+            <div id="box-top-side-inside">
+
+                <input type="radio" id="topBoxCheckbox" class="checkbox" />
+                <div>
+                    <p>Top Box</p>
+
+                    <h2>Top Box</h2>
+
+
+                </div>
+            </div>
+            <h4>50% OFF</h4>
+
+        </div>
+        <div id="topBoxOptions" class="options">
+            <div id="topBoxDropdowns" class="dropdowns">
+            <div id="bottom-style">
+                <div>
+                    <label for="colorSelect">Color:</label>
+                        <div id="dropdownStyle">
+                            <p>#1</p>
+                            <select id="colorSelect">
+                                <!-- Options for color dropdown -->
+                                <option value="red">Red</option>
+                                <option value="green">Green</option>
+                                <option value="blue">Blue</option>
+                            </select>
+                        </div>
+                        <div id="dropdownStyle">
+                            <p>#2</p>
+                            <select id="colorSelect">
+                                <!-- Options for color dropdown -->
+                                <option value="red">Red</option>
+                                <option value="green">Green</option>
+                                <option value="blue">Blue</option>
+                            </select>
+                        </div>
+                </div>
+
+                <div>
+
+                    <label for="sizeSelect">Size:</label>
+                    <div id="dropdownStyle2">
+
+                        <select id="sizeSelect">
+                            <!-- Options for size dropdown -->
+                            <option value="small">Small</option>
+                            <option value="medium">Medium</option>
+                            <option value="large">Large</option>
+                        </select>
+                        <select id="sizeSelect">
+                            <!-- Options for size dropdown -->
+                            <option value="small">Small</option>
+                            <option value="medium">Medium</option>
+                            <option value="large">Large</option>
+                        </select>
+                    </div>
+                </div>
+
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

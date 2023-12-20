@@ -1,0 +1,142 @@
+body {
+
+    margin-top: 4rem;
+    padding: 0;
+    font-weight: 200;
+    font-family: system-ui;
+    font-size: small;
+    
+
+}
+
+.box {
+    width: 80%;
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    padding: 10px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 0.5rem;
+}
+
+.box:hover {
+    background-color: #e9f9ea;
+    border: 1px solid #007F61;
+
+}
+
+.options {
+    display: none;
+
+}
+
+.selected-box {
+  background-color: #3f5c6a; /* Set your desired background color */
+}
+
+
+.options label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.radio {
+    border-radius: 23rem;
+    cursor: pointer;
+    color: #007b0c;
+}
+
+
+.dropdowns {
+    display: none;
+}
+
+
+.dropdowns select {
+    margin-bottom: 10px;
+}
+
+#heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #007F61;
+    ;
+    flex-direction: row; /* Adjusted to row for side-by-side layout */
+
+}
+
+hr {
+    width: 8%; /* You can set the width to a specific value or use percentage */
+    margin: 0 10px;
+    
+  }
+
+
+  #box-top-side{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row; 
+  }
+
+  #box-top-side-inside{
+    display: flex;
+    flex-direction: row; 
+    gap: 1rem;
+  }
+
+  #bottom-style{
+    display: flex;
+    flex-direction: row;
+     
+    gap: 2rem;
+    font-weight: 400;
+  }
+
+  #dropdownStyle{
+    display: flex;
+  
+    
+    flex-direction: row; 
+    gap: 1rem;
+
+  }
+
+  #dropdownStyle2{
+    display: flex;
+    flex-direction: column; 
+  }
+
+  select{
+    height: 2rem;
+    width: 5rem;
+    border-radius: 3px;
+    
+  }
+
+  #bottom{
+    width: 80%;
+    max-width: 400px;
+  }
+
+  #bottom-main{
+    text-align: center;
+    text-align: -webkit-center;
+
+  }
+  #bottom-text{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+  }
+
+  Button{
+    background-color: #007F61;
+    color: white;
+    border: none;
+    height: 3rem;
+    width: 100%;
+    max-width: 400px;
+  }
